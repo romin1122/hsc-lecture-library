@@ -1,0 +1,225 @@
+html {
+    height:100%;
+    width:100%;
+}
+
+
+
+
+h1, h3 {
+    color: white;
+    opacity: 0.8;
+    padding: 1em;
+    
+    padding-left: 1.5em;
+}
+
+ h1 {
+    padding-bottom: 0;
+}
+
+#subjects {
+    padding-top: 1em;
+}
+
+#subjectsList {
+    width: 70%;
+    opacity:.7;
+    margin-left: 15%;
+    padding-bottom: 1em;
+}
+
+.c0 {
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+}
+
+#subjects > div{
+    min-height:100vh;
+}
+
+#subjects > div > div > button{
+    opacity: 0.7;
+}
+
+
+
+.c1 {
+    background-color: #0093E9;
+background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+
+}
+
+.c2 {
+    background-color: #8EC5FC;
+background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+
+}
+
+.c3 {
+    background-color: #00DBDE;
+background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+
+}
+
+.c4 {
+    background-color: #08AEEA;
+background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
+
+}
+
+.c5 {
+    background-color: #FBAB7E;
+background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+
+}
+
+.c6 {
+    background-color: #85FFBD;
+background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+
+}
+
+.c7 {
+    background-color: #8BC6EC;
+background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+
+}
+
+.c8 {
+    background-color: #21D4FD;
+background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+
+}
+
+.c9 {
+    background-color: #FFE53B;
+background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
+
+}
+
+.c10 {
+    background-color: #FA8BFF;
+background-image: linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);
+
+}
+
+.c11 {
+    background-color: #A9C9FF;
+background-image: linear-gradient(180deg, #A9C9FF 0%, #FFBBEC 100%);
+
+}
+
+.c12 {
+    background-color: #FBDA61;
+background-image: linear-gradient(45deg, #FBDA61 0%, #FF5ACD 100%);
+
+}
+
+
+#bg {
+    min-height: 100%;
+  min-width: 1024px;
+	
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+	
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+  
+  z-index: -3;
+}
+
+#menuicon {
+  display: inline-block;
+  cursor: pointer;
+  
+  position: fixed;
+  top: 0.5em;
+  left:0.5em;
+  
+  z-index: 2;
+}
+
+#bar1, #bar2, #bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #DDD;
+  margin: 6px 0;
+  transition: 0.4s;
+  border: .5px solid black;
+}
+
+.change #bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change #bar2 {opacity: 0;}
+
+.change #bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+
+
+
+
+/* The side navigation menu */
+#menu {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #75E6DA; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  
+}
+
+#menu > div, #menu > button {
+    opacity: 0.7;
+}
+
+#menu > div {
+    padding-top: 1.5em;
+}
+
+.dropdownarrow {
+    position:absolute;
+    right:1em;
+    font-weight: bold;
+}
+
+
+hr{
+    padding: 0;
+}
+
+footer {
+    background-color: #888;
+    opacity: 0.5;
+    border-top: 0.15em solid #333;
+}
+
+footer > a > img {
+    margin: 1em;
+}
+
+
+
+iframe {
+    margin:0;
+    padding-block: 0;
+}
+
+@media screen and (max-height: 450px) {
+  #menu {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+)
