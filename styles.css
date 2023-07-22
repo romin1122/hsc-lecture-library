@@ -214,11 +214,6 @@ footer > a > img {
 
 
 
-iframe {
-    margin:0;
-    padding-block: 0;
-}
-
 @media screen and (max-height: 450px) {
   #menu {padding-top: 15px;}
   .sidenav a {font-size: 18px;}

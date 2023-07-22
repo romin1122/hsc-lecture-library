@@ -65,14 +65,10 @@ let homepage = document.querySelector('#home');
                     if (!expanded) {
                         
                         for (let link of chapter.links) {
-                            let yt = document.createElement('iframe');
-                            yt.src = 'https://www.youtube.com/embed/' + link;
+                            let yt = document.createElement('lite-youtube');
+                            yt.setAttribute("videoid", link);
+                            yt.setAttribute("playlabel", "Lecture,,,");
                             linkNodes.push(yt);
-                            
-                            yt.classList = "ratio ratio-16x9";
-                            
-                            yt.allow = 'fullscreen';
-                            
                             
                             
                             chapterContainer.appendChild(yt);
